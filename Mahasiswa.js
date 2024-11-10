@@ -2,7 +2,7 @@ import React from 'react'
 import Datamahasiswa from "./data/mahasiswa.json"
 import { FlatList, Text, View, TouchableOpacity, Linking, StyleSheet} from 'react-native'
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
-import { faUserGraduate } from '@fortawesome/free-solid-svg-icons'
+import { faUserGraduate, faMars, faVenus } from '@fortawesome/free-solid-svg-icons'
 
 
 const Mahasiswa = () => {
