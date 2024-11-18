@@ -25,7 +25,7 @@ function Datamahasiswa() {
 function WebScreen() {
   return (
     <WebView
-      source={{ uri: 'https://github.com/mcnoelvito' }}
+      source={{ uri: 'https://github.com/galuhazzahraaa' }}
     />
   );
 }
