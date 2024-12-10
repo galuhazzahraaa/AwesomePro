@@ -62,7 +62,7 @@ const Listdata = () => {
           renderItem={({ item }) => (
             <View>
               <TouchableOpacity>
-                <View style={[styles.card, { backgroundColor: item.color || '#B0C4DE' }]}>
+                <View style={[styles.card, { backgroundColor: item.color || '#FFFFFF' }]}>
                   <View style={styles.avatar}>
                     <FontAwesomeIcon icon={faGraduationCap} size={50} color={item.color || '#000'} />
                   </View>
@@ -87,7 +87,7 @@ const Listdata = () => {
                       { text: 'Ya', onPress: () => deleteData(item.id) },
                     ])
                   }
-                  color={'#6495ED'}
+                  color={'#eb1e30'}
                 />
               </View>
             </View>
