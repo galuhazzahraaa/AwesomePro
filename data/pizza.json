@@ -1,0 +1,92 @@
+[
+    {
+        "no": 1,
+        "nama_lokasi": "Tunqu Nangkring",
+        "rate": "4,7/5",
+        "jam_operasional": "17.00 - 23.00",
+        "alamat": "Jl. P. Mangkubumi, Gowongan, Kec. Jetis, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55592",
+        "latitude": -7.786314219278029, 
+        "longitude": 110.36625256093329
+    },
+    {
+        "no": 2,
+        "nama_lokasi": "L'Union Pizza",
+        "rate": "4,8/5",
+        "jam_operasional": "15.00 - 22.00",
+        "alamat": "Jl. Cik Di Tiro No.24, Terban, Kec. Gondokusuman, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55223",
+        "latitude": -7.77666404085929, 
+        "longitude":  110.37610568148604
+    },
+    {
+        "no": 3,
+        "nama_lokasi": "Pizza Aroma Italia",
+        "rate": "4,7/5",
+        "jam_operasional": "11.00 - 22.00",
+        "alamat": "Jl. Doktor Sutomo No.46, Bausasran, Kec. Gondokusuman, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55211",
+        "latitude": -7.789340892609807,  
+        "longitude":  110.37774570918354
+    },
+    {
+        "no": 4,
+        "nama_lokasi": "Nanamia Pizzeria",
+        "rate": "4,7/5",
+        "jam_operasional": "11.00 - 22.00",
+        "alamat": "Jl. Tirtodipuran No.1, Mantrijeron, Kec. Mantrijeron, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55143",
+        "latitude": -7.814054544863312,   
+        "longitude":  110.36295532983567
+    },
+    {
+        "no": 5,
+        "nama_lokasi": "Pizza Hut Delivery",
+        "rate": "4,6/5",
+        "jam_operasional": "08.00 - 22.00",
+        "alamat": "Jl. Colombo No.6D, Samirono, Caturtunggal, Kec. Depok, Jawa Tengah, Daerah Istimewa Yogyakarta 55281",
+        "latitude": -7.776752313256704,    
+        "longitude":  110.38583061183667
+    },
+    {
+        "no": 6,
+        "nama_lokasi": "Giorno's Pizzeria",
+        "rate": "4,7/5",
+        "jam_operasional": "10.00 - 22.00",
+        "alamat": "Ambarukmo 377A, Ambarukmo, Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281",
+        "latitude": -7.781589037617664,     
+        "longitude":  110.4007115841872
+    },
+    {
+        "no": 7,
+        "nama_lokasi": "Pikali Pizza Coffee and Kitchen",
+        "rate": "4,8/5",
+        "jam_operasional": "11.00 - 23.00",
+        "alamat": "Jl. Damai, Banteng, Sinduadi, Kec. Mlati, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55581",
+        "latitude": -7.731741995709033,     
+        "longitude": 110.38820042965465
+    },
+    {
+        "no": 8,
+        "nama_lokasi": "FAVOR Patisserie Pizzeria & Eatery",
+        "rate": "4,8/5",
+        "jam_operasional": "08.00 - 21.00",
+        "alamat": "Jl. C. Simanjuntak No.36a, Terban, Kec. Gondokusuman, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55223",
+        "latitude": -7.77643779445547,      
+        "longitude": 110.37332863760433
+    },
+    {
+        "no": 9,
+        "nama_lokasi": "Mediterranea Restaurant by Kami",
+        "rate": "4,7/5",
+        "jam_operasional": "08.00 - 23.00",
+        "alamat": "Jl. Tirtodipuran No.24A, Mantrijeron, Kec. Mantrijeron, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55143",
+        "latitude": -7.816780307619521,       
+        "longitude": 110.36452759897122
+    },
+    {
+        "no": 10,
+        "nama_lokasi": "Zizi Coffee Shop & Pizza",
+        "rate": "4,6/5",
+        "jam_operasional": "11.00 - 00.00",
+        "alamat": "Jl. Langensari No.23 B, Klitren, Kec. Gondokusuman, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55222",
+        "latitude": -7.785884641619665,        
+        "longitude": 110.38496004232911
+    }
+]
