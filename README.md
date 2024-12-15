@@ -1,79 +1,74 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+****Nama Produk: Pizza Hunter**
 
-# Getting Started
+**Deskripsi Produk:**** 
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+Pizza Hunter adalah aplikasi interaktif yang dirancang untuk membantu pengguna menemukan, menambahkan, dan mengelola lokasi restoran pizza favorit mereka dengan mudah. Dengan antarmuka yang sederhana namun menarik, aplikasi ini dapat memungkinkan pengguna untuk menjelajahi dunia pizza secara menyeluruh.
 
-## Step 1: Start the Metro Server
+**Fitur Utama**
+a. Peta Lokasi Pizza:
+Menampilkan restoran pizza terdekat dengan fitur peta interaktif.
+Pengguna dapat melihat informasi lengkap seperti alamat, jam operasional, dan rating.
+b. Tambah Lokasi Pizza:
+Fitur ini memungkinkan pengguna untuk menambahkan restoran pizza baru ke dalam database.
+Informasi yang bisa dimasukkan: Nama restoran, rating, jam operasional, alamat, dan koordinat lokasi.
+c. Profil Pengguna: 
+Halaman profil yang menyajikan informasi pengguna, seperti nama, email, dan media sosial.
+d. Antarmuka Peta Interaktif:
+Menggunakan peta berbasis OpenStreetMap untuk menunjukkan lokasi pizza dengan ikon yang menarik.
+e. Integrasi Media Sosial: 
+Menyediakan tautan langsung ke profil GitHub, LinkedIn, dan Instagram pengguna
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+**Komponen Pembangun Produk**
+1. React Native: Framework utama untuk membangun aplikasi mobile.
+2. Metro Bundler: JavaScript dari React Native.
+3. Node.js: Untuk mengelola dependensi dan skrip aplikasi.
+4. Android Studio: Aplikasi yang terhubung dengan emulator untuk menampilkan hasil projek yang telah dibuat
+5. OpenStreetMap: Basemap peta yang digunakan untuk menampilkan detail lokasi pizza dalam bentuk marker dan circle.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+**Sumber Data**
+1. Google Maps
+2. Link OpenStreetMap
 
-```bash
-# using npm
-npm start
+**Tangkapan Layar Komponen Penting Produk**
+1. Halaman Utama:
+   ![image](https://github.com/user-attachments/assets/756d2017-6236-4382-b720-8efff87588bf)
 
-# OR using Yarn
-yarn start
-```
 
-## Step 2: Start your Application
+2. Create Data
+   ![image](https://github.com/user-attachments/assets/80f528bd-fcdf-4a9f-a11d-e55bbb294d2c)
+   
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+4. Select Location On Map (harus di tekan dulu penempatan lokasinya)
+   ![image](https://github.com/user-attachments/assets/587da938-205e-4743-8e29-427bfcf90769)
+   
 
-### For Android
+6. Tampilan Koordinat Terdeteksi dan Data Berhasil Disimpan
+   ![image](https://github.com/user-attachments/assets/3c7b7638-5e22-49f5-a1a1-f98439ee54a1)
+   
+   ![image](https://github.com/user-attachments/assets/a14397f6-2127-46b7-9e44-52f69fc269fc)
 
-```bash
-# using npm
-npm run android
 
-# OR using Yarn
-yarn android
-```
+8. Hasil Tampilan Data Yang Telah Ter Input dan Tampilan di Open Street Maps (ketika di klik)
+   ![image](https://github.com/user-attachments/assets/8322a936-b58c-43bd-a461-94527007d754)
+   
+   ![image](https://github.com/user-attachments/assets/cedbb4d9-ec39-408e-bd05-10af29c1d3b8)
 
-### For iOS
 
-```bash
-# using npm
-npm run ios
+10. Delete Data
+   ![image](https://github.com/user-attachments/assets/e316caf5-4976-4907-9d92-458e5ae46e25)
 
-# OR using Yarn
-yarn ios
-```
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+12. Profile
+   ![image](https://github.com/user-attachments/assets/c90ac0cc-6820-47ee-8fcd-dba7df478690)
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+   ![image](https://github.com/user-attachments/assets/7f9e66d2-eec0-4295-8d98-c980f13eb495)
 
-## Step 3: Modifying your App
 
-Now that you have successfully run the app, let's modify it.
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
 
-## Congratulations! :tada:
 
-You've successfully run and modified your React Native App. :partying_face:
 
-### Now what?
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
 
-# Troubleshooting
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
