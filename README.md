@@ -28,19 +28,28 @@ e. Integrasi Media Sosial:
 2. Link OpenStreetMap
 
 **Tangkapan Layar Komponen Penting Produk**
+
 Halaman Utama:
+
+
    ![1](https://github.com/user-attachments/assets/a65ea060-2e3d-4f6a-9b92-55f693ff70d4)
 
 
 Create Data
+
+
    ![2](https://github.com/user-attachments/assets/bae08c8e-0427-402c-b59e-04954f01b6f9)
 
    
 Select Location On Map (harus di tekan dulu penempatan lokasinya)
+
+
    ![image](https://github.com/user-attachments/assets/587da938-205e-4743-8e29-427bfcf90769)
    
 
 Tampilan Koordinat Terdeteksi dan Data Berhasil Disimpan
+
+
    ![3](https://github.com/user-attachments/assets/b8b31a5d-4afa-4eb9-8f8b-1ce1785a8509)
 
    
@@ -49,6 +58,8 @@ Tampilan Koordinat Terdeteksi dan Data Berhasil Disimpan
 
 
 Hasil Tampilan Data Yang Telah Ter Input Berdasarkan Rating dan Tampilan di Open Street Maps (ketika di klik)
+
+
    ![5](https://github.com/user-attachments/assets/4916bd87-e32f-4fe4-8c59-4e10a105fedb)
 
    
@@ -57,11 +68,15 @@ Hasil Tampilan Data Yang Telah Ter Input Berdasarkan Rating dan Tampilan di Open
 
 
 Delete Data
+
+
    ![7](https://github.com/user-attachments/assets/4912d7d6-90a7-4f65-84cd-8e9814e3f865)
 
 
 
 Profile
+
+
    ![8](https://github.com/user-attachments/assets/dcc61b90-3035-4fb8-801d-d3f4d574234c)
 
 
