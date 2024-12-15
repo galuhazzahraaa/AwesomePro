@@ -158,9 +158,9 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(0, 0, 0, 0.5)', // Transparansi hitam untuk overlay
   },
   card: {
-    backgroundColor: 'rgba(255, 255, 255, 0.9)',
-    borderRadius: 10,
-    padding: 20,
+    backgroundColor: 'rgba(244, 247, 187, 0.9)',
+    borderRadius: 15,
+    padding: 15,
     alignItems: 'center',
     width: '85%',
   },
