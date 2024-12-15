@@ -44,7 +44,8 @@ Create Data:
 Select Location On Map (harus di tekan dulu penempatan lokasinya):
 
 
-   ![image](https://github.com/user-attachments/assets/587da938-205e-4743-8e29-427bfcf90769)
+   ![2b](https://github.com/user-attachments/assets/19dbe625-7440-41df-b7b7-5364f064c200)
+
    
 
 Tampilan Koordinat Terdeteksi dan Data Berhasil Disimpan:
