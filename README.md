@@ -32,7 +32,8 @@ e. Integrasi Media Sosial:
 Halaman Utama:
 
 
-   ![1](https://github.com/user-attachments/assets/a65ea060-2e3d-4f6a-9b92-55f693ff70d4)
+   ![1](https://github.com/user-attachments/assets/97330ec7-db54-408f-8c7c-f365f067acf1)
+
 
 
 Create Data:
