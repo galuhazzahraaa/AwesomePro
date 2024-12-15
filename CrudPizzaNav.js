@@ -3,7 +3,7 @@ import { PermissionsAndroid, Platform, View, Text, Image, TouchableOpacity, Imag
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
-import { faPlusCircle, faUserPen, faPizzaSlice } from '@fortawesome/free-solid-svg-icons';
+import { faPlusCircle, faUser, faPizzaSlice } from '@fortawesome/free-solid-svg-icons';
 import Createdatapizza from './Createdatapizza';
 import Datapizza from './Pizza';
 import Profil from './App';
@@ -100,38 +100,48 @@ export default function CrudPizzaNav() {
 
   return (
     <NavigationContainer>
-      <Tab.Navigator>
-        <Tab.Screen
-          name="Add Data Location"
-          component={HomeScreen}
-          options={{
-            headerShown: false,
-            tabBarIcon: ({ color }) => (
-              <FontAwesomeIcon icon={faPlusCircle} color={color} size={24} />
-            ),
-          }}
-        />
-        <Tab.Screen
-          name="List Map Pizza Location"
-          component={DataPizzaScreen}
-          options={{
-            headerShown: false,
-            tabBarIcon: ({ color }) => (
-              <FontAwesomeIcon icon={faPizzaSlice} color={color} size={24} />
-            ),
-          }}
-        />
-        <Tab.Screen
-          name="Profile"
-          component={ProfileScreen}
-          options={{
-            headerShown: false,
-            tabBarIcon: ({ color }) => (
-              <FontAwesomeIcon icon={faUserPen} color={color} size={24} />
-            ),
-          }}
-        />
-      </Tab.Navigator>
+      <Tab.Navigator
+  screenOptions={({ route }) => ({
+    tabBarIcon: ({ focused, color, size }) => {
+      let iconName;
+
+      if (route.name === 'Add Data Location') {
+        iconName = faPlusCircle;
+      } else if (route.name === 'List Pizza Location') {
+        iconName = faPizzaSlice;
+      } else if (route.name === 'Profile') {
+        iconName = faUser;
+      }
+
+      return <FontAwesomeIcon icon={iconName} color={color} size={size} />;
+    },
+    tabBarActiveTintColor: '#b82a2a', // Warna ikon/tab saat aktif
+    tabBarInactiveTintColor: 'gray', // Warna ikon/tab saat tidak aktif
+    tabBarStyle: {
+      backgroundColor: 'white', // Warna latar tab bar
+    },
+    tabBarLabelStyle: {
+      fontSize: 12, // Ukuran font label
+    },
+  })}
+>
+  <Tab.Screen
+    name="Add Data Location"
+    component={HomeScreen}
+    options={{ headerShown: false }}
+  />
+  <Tab.Screen
+    name="List Pizza Location"
+    component={DataPizzaScreen}
+    options={{ headerShown: false }}
+  />
+  <Tab.Screen
+    name="Profile"
+    component={ProfileScreen}
+    options={{ headerShown: false }}
+  />
+</Tab.Navigator>
+
     </NavigationContainer>
   );
 }
